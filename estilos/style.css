@@ -4,7 +4,7 @@
     --cor_fundo: rgb(18, 18, 18);
     --cor_fundo_menu: rgb(36, 36, 36);
     --cor_fundo_forms: rgb(19, 15, 15);
-    --cor_letras: rgb(83, 83, 83);
+    --cor_letras: rgb(112, 111, 111);
 }
 
 *{
@@ -58,8 +58,34 @@ main{
 
 #formulario{
     display: block;
-
     padding: 10px;
+}
 
-    color: white;
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10;
+    color: var(--cor_letras);
+}
+
+#formulario p{
+    font-size: 0.8em;
+    color: var(--cor_letras);
+
+}
+
+#icon_email{
+    height: 10px;
+    color: rgb(32, 123, 70);
+    font-size: medium;
+}
+
+#icon_cadeado{
+    height: 10px;
+    color: rgb(32, 123, 70);
+    font-size: medium;
+}
+
+label{
+    color: var(--cor_letras);
+    font-size: small;
 }
