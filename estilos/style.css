@@ -73,9 +73,12 @@ main{
     text-align: center;
     margin-bottom: 10;
     color: var(--cor_letras);
+    font-size: medium;
 }
 
 #formulario p{
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 0.8em;
     color: var(--cor_letras);
 
@@ -120,6 +123,7 @@ form a.botao{
     height: 40px;
     text-decoration: none;
     color: var(--cor_letras);
+    margin-top: 15px;
 }
 
 .campo{
@@ -133,6 +137,6 @@ form a.botao{
     border-radius: 20px;
     border: none;
     text-align: center;
-    font-size: small;
+    font-size: 10px;
     padding: 5px;
 }
