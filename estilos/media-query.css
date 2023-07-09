@@ -5,6 +5,11 @@
         width: 90vw;
     }
 
+    #login{
+        width: 80vw;
+        height: 280px;
+    }
+
     #imagem{
         float: left;
         width: 30%;
@@ -31,6 +36,7 @@
     #formulario{
         float: left;
         width: 50%;
+        margin: 10px 0px;
     
     }
 
@@ -39,8 +45,8 @@
     }
 
     #formulario h1{
-        font-size: 2em;;
+        font-size: 1.2em;;
     }
     
-
+    
 }
