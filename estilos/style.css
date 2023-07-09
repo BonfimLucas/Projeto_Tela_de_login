@@ -3,7 +3,7 @@
 :root{
     --cor_fundo: rgb(18, 18, 18);
     --cor_fundo_menu: rgb(36, 36, 36);
-    --cor_fundo_forms: rgb(19, 15, 15);
+    --cor_fundo_forms: rgb(37, 30, 30);
     --cor_letras: rgb(112, 111, 111);
 }
 
@@ -88,4 +88,43 @@ main{
 label{
     color: var(--cor_letras);
     font-size: small;
+}
+
+form>input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(35, 141, 115);
+    border-radius: 10px;
+    border: none;
+}
+
+form input[type=submit]:hover{
+    background-color: rgb(24, 89, 72);
+}
+
+form a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    color: var(--cor_letras);
+}
+
+.campo{
+    margin: 10px 0px;
+    height: 40px;
+}
+
+.entrada{
+    background-color: var(--cor_fundo_forms);
+    color: var(--cor_letras);
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
 }
