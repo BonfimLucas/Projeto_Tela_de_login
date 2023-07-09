@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+:root{
+    --cor_fundo: rgb(54, 54, 54);
+    --cor_fundo_menu: rgb(36, 36, 36);
+    --cor_fundo_forms: rgb(19, 15, 15);
+    --cor_letras: rgb(83, 83, 83);
+}
