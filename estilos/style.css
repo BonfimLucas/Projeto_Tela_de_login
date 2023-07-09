@@ -1,8 +1,62 @@
 @charset "UTF-8";
 
 :root{
-    --cor_fundo: rgb(54, 54, 54);
+    --cor_fundo: rgb(18, 18, 18);
     --cor_fundo_menu: rgb(36, 36, 36);
     --cor_fundo_forms: rgb(19, 15, 15);
     --cor_letras: rgb(83, 83, 83);
+}
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--cor_fundo);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--cor_fundo_menu);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.833);
+}
+
+#imagem{
+    display: block;
+
+    background: var(--cor_fundo) url("../imagens/folhas.jpg");
+    background-size: cover;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.622);
+    
+    height: 150px;
+}
+
+#formulario{
+    display: block;
+
+    padding: 10px;
+
+    color: var(--cor_letras);
 }
