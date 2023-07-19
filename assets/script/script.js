@@ -1,0 +1,1 @@
+alert('O projeto consiste em ser um teste de responsividade, peço que por favor, faça um teste em diversas resoluções, obrigado. :) ')
